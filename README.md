@@ -14,53 +14,87 @@ Bu proje, elektrikli araç şarj istasyonlarında gerçekleşen enerji akışın
 🔧 Projenin Özellikleri
 
 Gerçek zamanlı enerji akışı simülasyonu
+
 OCPP bağlantı durumu kontrolü
+
 Kural tabanlı anomali tespiti
+
 ML (Isolation Forest) ile anomali tespiti
+
 Replay veri oynatma
+
 CSV / JSON log kaydı
+
 Renkli log görüntüleme
+
 Kullanıcı dostu arayüz (Tkinter)
 
 
 📂 Proje Dosya Yapısı
+
 main.py
+
 simulator.py
+
 ml_detector.py
+
 trainer.py
+
 replay.py
+
 /data
+
     normal_data.csv
+    
     model.joblib
+    
 /logs
+
     logs.csv
+    
 README.md
 
 
 ▶️ Çalıştırma Talimatları
 
 Ortam Hazırlığı:
+
 python -m venv .venv
+
 .venv\Scripts\activate
+
 pip install -r requirements.txt
 
+
 Model Eğitme (Gerekirse):
+
 python trainer.py
 
 Simülasyonu Başlatma:
+
 python main.py
 
 
 📦 Kullanılan Kütüphaneler
+
 tkinter
+
 random
+
 datetime
+
 csv
+
 json
+
 os
+
 joblib
+
 sklearn
+
 numpy
+
 pandas
 
 
