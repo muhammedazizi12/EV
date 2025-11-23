@@ -6,11 +6,13 @@ EV Charging Security — OCPP & Yapay Zekâ Destekli Anomali Tespiti
 Bu proje, elektrikli araç şarj istasyonlarında gerçekleşen enerji akışını gerçek zamanlı olarak izleyerek olağandışı davranışları (anomali) tespit eden güvenlik odaklı bir simülasyon sistemidir. Sistem, hem kural tabanlı hem de makine öğrenimi tabanlı yöntemleri kullanarak şüpheli durumları algılar ve kaydeder.
 
 
-🎯 Amacı / Çözdüğü Problem
+🎯 Amacı
+
 Şarj sürecinde ortaya çıkabilecek anormal enerji kullanımı, OCPP bağlantısı kesikken şarjın devam etmesi, negatif enerji, replay manipülasyonu gibi saldırı senaryolarını algılamak ve güvenlik risklerini azaltmak.
 
 
 🔧 Projenin Özellikleri
+
 Gerçek zamanlı enerji akışı simülasyonu
 OCPP bağlantı durumu kontrolü
 Kural tabanlı anomali tespiti
