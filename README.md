@@ -32,6 +32,7 @@ Kullanıcı dostu arayüz (Tkinter)
 
 
 
+
 ▶️ Çalıştırma Talimatları
 
 Ortam Hazırlığı:
