@@ -11,6 +11,7 @@ Bu proje, elektrikli araç şarj istasyonlarında gerçekleşen enerji akışın
 Şarj sürecinde ortaya çıkabilecek anormal enerji kullanımı, OCPP bağlantısı kesikken şarjın devam etmesi, negatif enerji, replay manipülasyonu gibi saldırı senaryolarını algılamak ve güvenlik risklerini azaltmak.
 
 
+
 🔧 Projenin Özellikleri
 
 Gerçek zamanlı enerji akışı simülasyonu
@@ -30,49 +31,25 @@ Renkli log görüntüleme
 Kullanıcı dostu arayüz (Tkinter)
 
 
-📂 Proje Dosya Yapısı
-
-main.py
-
-simulator.py
-
-ml_detector.py
-
-trainer.py
-
-replay.py
-
-/data
-
-    normal_data.csv
-    
-    model.joblib
-    
-/logs
-
-    logs.csv
-    
-README.md
-
 
 ▶️ Çalıştırma Talimatları
 
 Ortam Hazırlığı:
 
-python -m venv .venv
+    python -m venv .venv
 
-.venv\Scripts\activate
+    .venv\Scripts\activate
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 Model Eğitme (Gerekirse):
 
-python trainer.py
+    python trainer.py
 
 Simülasyonu Başlatma:
 
-python main.py
+    python main.py
 
 
 📦 Kullanılan Kütüphaneler
